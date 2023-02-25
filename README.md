@@ -46,4 +46,4 @@ Requisições para a API devem seguir os padrões:
 
 ## Autor
 
-[Linkedin](https://www.linkedin.com/in/gabrielmacieldev/)
+ [Linkedin](https://www.linkedin.com/in/gabrielmacieldev/)
