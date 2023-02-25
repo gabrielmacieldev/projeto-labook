@@ -9,8 +9,6 @@ Aplicação back-end de servidor express com banco de dados sqlite3.
 - <a href="#respostas">Respostas esperadas</a>
 - <a href="#documentação">Documentação</a>
 - <a href="#abordados">Conteúdos abordados</a>
-- <a href="#pessoa">Pessoa autora</a>
-- <a href="#próximos">Próximos passos</a>
 
 
 ## Métodos
