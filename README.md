@@ -4,13 +4,6 @@ O Labook é uma rede social com o objetivo de promover a conexão e interação 
 
 Aplicação back-end de servidor express com banco de dados sqlite3.
 
-## Índice
-- <a href="#métodos">Métodos disponíveis na API</a>
-- <a href="#respostas">Respostas esperadas</a>
-- <a href="#documentação">Documentação</a>
-- <a href="#abordados">Conteúdos abordados</a>
-
-
 ## Métodos
 Requisições para a API devem seguir os padrões:
 | Método | Descrição |
