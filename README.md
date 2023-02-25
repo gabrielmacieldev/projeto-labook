@@ -1,25 +1,24 @@
-# projeto-labook
+# Projeto-Labook
 
-# Lista de requisitos
+Lista de requisitos
+Endpoints
 
-- Endpoints
+ [x]signup
+ [x]login
+ [x]get posts
+ [x]create post
+ [x]edit post
+ [x]delete post
+ [x]like / dislike post
 
-    - [x]  signup - POST Users
-    - [ ]  login - GET Users by Id
-    - [x]  get posts - GET all posts
-    - [ ]  create post - POST posts
-    - [ ]  edit post - PUT posts
-    - [ ]  delete post - DELETE posts
-    - [ ]  like / dislike post 
+Autenticação e autorização
 
-- Autenticação e autorização
-
-    - [ ]  identificação UUID
-    - [ ]  senhas hasheadas com Bcrypt
-    - [ ]  tokens JWT
+ [x]identificação UUID
+ [x]senhas hasheadas com Bcrypt
+ [x]tokens JWT
  
- - Código
+Código
 
-    - [x]  POO
-    - [x]  Arquitetura em camadas
-    - [x]  Roteadores no Express
+ [x]POO
+ [x]Arquitetura em camadas
+ [x]Roteadores no Express
