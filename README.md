@@ -1,24 +1,55 @@
 # Projeto-Labook
 
-Lista de requisitos
-Endpoints
+O Labook é uma rede social com o objetivo de promover a conexão e interação entre pessoas. Quem se cadastrar no aplicativo poderá criar e curtir publicações.
 
- [x]signup
- [x]login
- [x]get posts
- [x]create post
- [x]edit post
- [x]delete post
- [x]like / dislike post
+Aplicação back-end de servidor express com banco de dados sqlite3.
 
-Autenticação e autorização
+## Índice
+- <a href="#métodos">Métodos disponíveis na API</a>
+- <a href="#respostas">Respostas esperadas</a>
+- <a href="#documentação">Documentação</a>
+- <a href="#abordados">Conteúdos abordados</a>
+- <a href="#pessoa">Pessoa autora</a>
+- <a href="#próximos">Próximos passos</a>
 
- [x]identificação UUID
- [x]senhas hasheadas com Bcrypt
- [x]tokens JWT
- 
-Código
 
- [x]POO
- [x]Arquitetura em camadas
- [x]Roteadores no Express
+## Métodos
+Requisições para a API devem seguir os padrões:
+| Método | Descrição |
+|---|---|
+| `GET` | Retorna informações de um ou mais registros. |
+| `POST` | Utilizado para criar um novo registro. |
+| `PUT` | Atualiza dados de um registro ou altera sua situação. |
+| `DELETE` | Remove um registro do sistema. |
+
+## Respostas
+
+| Código | Descrição |
+|---|---|
+| `200` | Requisição executada com sucesso (success).|
+| `201` | Recurso criado com sucesso (success).|
+| `400` | Erros de validação ou os campos informados não existem no sistema.|
+| `404` | Registro pesquisado não encontrado (Not found).|
+
+## Banco de dados
+
+![projeto-labook ](https://user-images.githubusercontent.com/29845719/216036534-2b3dfb48-7782-411a-bffd-36245b78594e.png)
+
+## Documentação
+[Link Documentação](https://documenter.getpostman.com/view/24460918/2s93CPqXMs)
+
+
+## Tecnologias utilizadas e conteúdos abordados
+
+1. [Node.js](https://nodejs.org/en/)
+2. [Typescript](https://www.typescriptlang.org/)
+3. [Express](https://expressjs.com/pt-br/)
+4. [Cors](https://www.npmjs.com/package/cors)
+5. [Knex](https://knexjs.org/)
+6. [Arquitetura em camadas]()
+7. [Programação orientada a objetos]()
+8. [Roteamento](https://expressjs.com/pt-br/api.html#router)
+9. [Geração de UUID](https://www.npmjs.com/package/uuid)
+10. [Geração de hashes](https://www.npmjs.com/package/bcrypt)
+11. [Autenticação e autorização](https://www.npmjs.com/package/jsonwebtoken)
+12. [Sqlite3](https://www.sqlitetutorial.net/)
