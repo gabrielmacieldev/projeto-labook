@@ -30,17 +30,20 @@ Requisições para a API devem seguir os padrões:
 [Link Documentação](https://documenter.getpostman.com/view/24460918/2s93CPqXMs)
 
 
-## Tecnologias utilizadas e conteúdos abordados
+## Tecnologias utilizadas
 
 1. [Node.js](https://nodejs.org/en/)
 2. [Typescript](https://www.typescriptlang.org/)
 3. [Express](https://expressjs.com/pt-br/)
 4. [Cors](https://www.npmjs.com/package/cors)
 5. [Knex](https://knexjs.org/)
-6. [Arquitetura em camadas]()
-7. [Programação orientada a objetos]()
-8. [Roteamento](https://expressjs.com/pt-br/api.html#router)
-9. [Geração de UUID](https://www.npmjs.com/package/uuid)
-10. [Geração de hashes](https://www.npmjs.com/package/bcrypt)
-11. [Autenticação e autorização](https://www.npmjs.com/package/jsonwebtoken)
-12. [Sqlite3](https://www.sqlitetutorial.net/)
+6. [Arquitetura em camadas](https://imasters.com.br/arquitetura-da-informacao/arquitetura-em-camadas)
+7. [Roteamento](https://expressjs.com/pt-br/api.html#router)
+8. [Geração de UUID](https://www.npmjs.com/package/uuid)
+9. [Geração de hashes](https://www.npmjs.com/package/bcrypt)
+10. [Autenticação e autorização](https://www.npmjs.com/package/jsonwebtoken)
+11. [Sqlite3](https://www.sqlitetutorial.net/)
+
+## Autor
+
+[Linkedin](https://www.linkedin.com/in/gabrielmacieldev/)
